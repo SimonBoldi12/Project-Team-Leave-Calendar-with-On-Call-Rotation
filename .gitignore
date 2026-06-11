@@ -1,0 +1,14 @@
+# Frontend
+leave-calendar-frontend/node_modules/
+leave-calendar-frontend/dist/
+
+# Backend
+leave-calendar-backend/target/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Env
+.env

@@ -1,0 +1,14 @@
+services:
+  backend:
+    build: ./leave-calendar-backend
+    container_name: leave-calendar-backend
+    ports:
+      - "8080:8080"
+
+  frontend:
+    build: ./leave-calendar-frontend
+    container_name: leave-calendar-frontend
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
